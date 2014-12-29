@@ -1,31 +1,62 @@
 ---
 layout: default
+title: Home - Welcome!
+permalink: /
 ---
+<!-- Welcome banner block -->
+<div class="welcome">
+  <div class="row">
+    <h1 class="welcome-text">
+      Building You a Road to Success
+    </h1>
+    <a href="#portfolio" class="button">Portfolio &raquo;</a>
+  </div>
+</div>
 
-<style>
-.fa {
-	margin-left: 20px;
-	color: #012B8C;
-}
-.outer-link {
-	margin-left: 20px;
-}
-</style>
+<!-- Short bio/welcome -->
+<div class="row bio">
+  <h3>Welcome! Take a look around, contact me if you would like to make an offer!</h3>
+  <p>I have been working with websites and various other pieces of software for several years now. My language experience includes Ruby (Rails), Java, Python, Javascript, NodeJS, CSS, HTML, various database syntaxes, and many different content management systems. I have worked on both small and large scale websites throughout the past. I would love to work on your project, so find my contact on the footer for a quote!</p>
+</div>
 
-<div id="links" align="center" style="margin-top: 15%">
-	<a href="http://twitter.com/Jake0oo0">
-		<i class="fa fa-twitter fa-3x"></i>
-	</a>
-	<a href="http://github.com/Jake0oo0">
-		<i class="fa fa-github fa-3x outer-link"></i>
-	</a>
-	<a href="mailto:jake0oo0dev@gmail.com">
-		<i class="fa fa-envelope fa-3x outer-link"></i>
-	</a>
-	<a href="http://blog.jake0oo0.me">
-		<i class="fa fa-file-o fa-3x outer-link"></i>
-	</a>
-	<a href="skype:jake0oo0?userinfo">
-		<i class="fa fa-skype fa-3x outer-link"></i>
-	</a>
+<!-- What I have to offer -->
+<div class="row offered">
+  <div class="large-4 medium-4 columns text-center offered-info">
+   <i class="fa fa-search fa-large"></i>
+   <h3>Search Engines</h3>
+   <p>Gaining visitors is important, and I make sure that your website is easily found on popular search engines.</p>
+ </div>
+ <div class="large-4 medium-4 columns text-center offered-info">
+   <i class="fa fa-code fa-large"></i>
+   <h3>Programming</h3>
+   <p>I am fluent in multiple programming languages and content management systems, with the ability to make a site that fits you.</p>
+ </div>
+ <div class="large-4 medium-4 columns text-center offered-info">
+   <i class="fa fa-tablet"></i>
+   <h3>Responsive</h3>
+   <p>The world is becoming more mobile based, and it is important that your site can be accessed from any device, awnywhere.</p>
+ </div>
+</div>
+
+<div class="portfolio" id="portfolio">
+  <div class="row">
+    <h1>My Portfolio</h1>
+  </div>
+  <div class="row">
+    <div class="large-6 medium-6 columns project">
+      <a href="https://mods-unturned.com">
+        <img title="Mods-Unturned" src="http://i.imgur.com/eyGuIOn.png" class="center-img">
+      </a>
+      <h3>Mods Unturned</h3>
+      <p>Mods Unturned was originally a completely static HTML website, prior to me rebuilding the site from the ground up with Ruby on Rails, with Redis caching, and Bower package mangement. The site features user submitted content, logins, comments, and various other statistics.</p>
+    </div>
+    <div class="large-6 medium-6 columns project">
+      <a href="https://crafatar.com">
+        <img title="Crafatar" src="http://i.imgur.com/3pbPIIG.png" class="center-img">
+      </a>
+      <h3>Crafatar</h3>
+      <p>Crafatar is a popular replacement for various Minecraft avatar services. It features speedy-fast avatar and 3D Minecraft skin rendering. Built on NodeJS, with caching support from Redis, and routing with ExpressJS. Crafatar takes 100,000+ hits a day, and still continues to run very well.</p>
+    </div>
+  </div>
+  <p class="more">Check out my <a href="https://github.com/Jake0oo0">Github</a> for more!</p>
 </div>
